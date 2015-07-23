@@ -1,6 +1,14 @@
-<h1>About Michael is under construction<h1>
-<p>Michael Joseph Vredenburgh
-
-708 W MacArthur Oakland; (760) 224-9725 mvredenburgh@berkeley.edu;
-
- https://github.com/MVredenburgh?tab=repositories</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Ruby on Rails Tutorial Sample App</title>
+  </head>
+  <body>
+    <h1>Sample App</h1>
+    <p>
+      This is the home page for the
+      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      sample application.
+    </p>
+  </body>
+</html>
