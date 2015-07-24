@@ -4,6 +4,7 @@
     <title>Help page (Under Construction)</title>
   </head>
   <body>
+    <h1>Help page (Under Construction)</h1>
     <p>
       Find me in app/views/static_pages/help.html.erb
     </p>
