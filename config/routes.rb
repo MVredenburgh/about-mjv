@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'work_experience'  => 'static_pages#work_experience'
   get 'related_courses'  => 'static_pages#related_courses'
   get 'languages'        => 'static_pages#languages'
+  resources :users
 
 end
