@@ -7,14 +7,9 @@
 <div class="center jumbotron">
     <h1>About Michael is under construction</h1>
    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
- 
-</div>
    <%= link_to image_tag("under-construction_animated.gif",
        alt: "construction logo"), 'http://static.wixstatic.com/media/3e7efb_340\
-7ead05bfe443bb9a5c067ccaeab4e.gif' %>
-    <h2>Michael Joseph Vredenburgh</h2>
-    <h2>708 W MacArthur Oakland; (760) 224-9725 mvredenburgh@berkeley.edu;</h2>
-    <h2> https://github.com/MVredenburgh?tab=repositories</h2>
-
+7ead05bfe443bb9a5c067ccaeab4e.gif' %> 
+</div>
   </body>
 </html>
