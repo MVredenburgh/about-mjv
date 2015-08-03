@@ -16,3 +16,9 @@
 !/log/.keep
 /tmp
 *~
+.#*
+\#*\#
+*.log
+.DS_Store
+org-clock-save.el
+emacs-config.el
