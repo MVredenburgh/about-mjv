@@ -74,6 +74,10 @@ class User < ActiveRecord::Base
     Micropost.where("user_id = ?", id)
   end
 
+  def activated?
+    self.activated
+  end
+    
   private
     # Converts email to all lower-case.
     def downcase_email
