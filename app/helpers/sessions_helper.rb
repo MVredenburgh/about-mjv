@@ -2,7 +2,11 @@ module SessionsHelper
 
   # Logs in the given user.
   def log_in(user)
-    session[:user_id] = user.id
+    if current_user?(@current_user) ||  @current_user.activated
+      session[:user_id] = user.id
+    else
+      redirect_to(home)
+    end   
   end
 
   # Remembers a user in a persistent session.
