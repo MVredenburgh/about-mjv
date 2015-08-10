@@ -291,7 +291,20 @@ span.picture {
   }
 }
 
+/* Body Lists */
+
 .edu-creds {
-	   text-align: left;
-    	   font-size: 18px;
-	   }
+           text-align: left;
+           font-size: 18px;
+           }
+
+.edu-body {
+	  ul {
+	     float: left;
+	     }
+	  li {
+	     text-align: left;
+	     font-size: 16px;
+	     padding-bottom: 5px;
+	     }  
+	  }   
